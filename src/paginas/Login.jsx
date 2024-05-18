@@ -24,7 +24,6 @@ const Login = () => {
         setAlerta({});
 
         try {
-            console.log(usuario);
             const {data} = await clienteAxios.post('/login', {usuario, password});
             setAlerta({msg: data.msg});
             navigate('/zonatex')
