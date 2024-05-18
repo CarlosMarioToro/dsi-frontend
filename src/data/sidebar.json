@@ -1,0 +1,1449 @@
+[
+    {
+        "id": 0,
+        "title": "DashBoard",
+        "url": "/zonatex"
+    },
+    {
+        "title": "Archivo",
+        "submenu": [
+            {
+                "id": 0.1,
+                "title": "Configurar Impresora",
+                "url": "/archivo/printer"
+            },
+            {
+                "id": 0.2,
+                "title": "Calculadora",
+                "url": "archivo/calculadora"
+            }
+        ]
+    },
+    {
+        "title": "Maestros",
+        "submenu": [
+            {
+                "title": "Generales",
+                "submenu": [
+                    {
+                        "id": 170,
+                        "title": "Centro de Costos",
+                        "url": "maestros/generales/centro-costos"
+                    },
+                    {
+                        "id": 6,
+                        "title": "Ciudades",
+                        "url": "maestros/generales/ciudades"
+                    },
+                    {
+                        "id": 7,
+                        "title": "Clientes",
+                        "url": "maestros/generales/clientes"
+                    },
+                    {
+                        "id": 5,
+                        "title": "Departamentos",
+                        "url": "maestros/generales/departamentos"
+                    },
+                    {
+                        "id": 202,
+                        "title": "Empresas Transportadoras",
+                        "url": "maestros/generales/empresas-transportadoras"
+                    },
+                    {
+                        "id": 4,
+                        "title": "Paises",
+                        "url": "maestros/generales/paises"
+                    },
+                    {
+                        "id": 8,
+                        "title": "Proveedores",
+                        "url": "maestros/generales/proveedores"
+                    },
+                    {
+                        "id": 9,
+                        "title": "Presupuesto",
+                        "url": "maestros/generales/presupuesto"
+                    },
+                    {
+                        "id": 178,
+                        "title": "Vendedores",
+                        "url": "maestros/generales/vendedoras"
+                    },
+                    {
+                        "id": 179,
+                        "title": "Zonas",
+                        "url": "maestros/generales/zonas"
+                    },
+                    {
+                        "id": 264,
+                        "title": "Barrios",
+                        "url": "maestros/generales/barrios"
+                    },
+                    {
+                        "id": 274,
+                        "title": "Temporadas",
+                        "url": "maestros/generales/temporadas"
+                    }
+                ]
+            },
+            {
+                "title": "Insumos",
+                "submenu": [
+                    {
+                        "id": 13,
+                        "title": "Bodegas",
+                        "url": "maestros/insumos/bodegas"
+                    },
+                    {
+                        "id": 11,
+                        "title": "Grupos Inventarios",
+                        "url": "maestros/insumos/gruposinventarios"
+                    },
+                    {
+                        "id": 10,
+                        "title": "Maestro de Insumos",
+                        "url": "maestros/insumos/maestroinsumos"
+                    },
+                    {
+                        "id": 12,
+                        "title": "Subgrupos Inventarios",
+                        "url": "maestros/insumos/subgruposinventarios"
+                    },
+                    {
+                        "id": 14,
+                        "title": "Unidades de Movimiento",
+                        "url": "maestros/insumos/unidadesmovimiento"
+                    }
+                ]
+            },
+            {
+                "title": "Gastos",
+                "submenu": [
+                    {
+                        "id": 16,
+                        "title": "Grupo Gastos",
+                        "url": "maestros/gastos/grupo"
+                    },
+                    {
+                        "id": 15,
+                        "title": "Maestro de Gastos",
+                        "url": "maestros/gastos/maestro"
+                    },
+                    {
+                        "id": 17,
+                        "title": "Subgrupo Gastos",
+                        "url": "maestros/gastos/subgrupo"
+                    }
+                ]
+            },
+            {
+                "title": "Administrativos",
+                "submenu": [
+                    {
+                        "id": 18,
+                        "title": "Bancos Transacciones",
+                        "url": "maestros/administrativos/bancostransacciones"
+                    },
+                    {
+                        "id": 24,
+                        "title": "Bancos Proveedores",
+                        "url": "maestros/administrativos/bancosproveedores"
+                    },
+                    {
+                        "id": 295,
+                        "title": "CIF",
+                        "url": "maestros/administrativos/cif"
+                    },
+                    {
+                        "id": 223,
+                        "title": "Comision por Recaudo",
+                        "url": "maestros/administrativos/comisionrecaudo"
+                    },
+                    {
+                        "id": 19,
+                        "title": "Maestros Comprobantes",
+                        "url": "maestros/administrativos/maestroscomprobantes"
+                    },
+                    {
+                        "id": 20,
+                        "title": "Maestro de Conceptos",
+                        "url": "maestros/administrativos/maestrosconceptos"
+                    },
+                    {
+                        "id": 21,
+                        "title": "Parámetros Consecutivos",
+                        "url": "maestros/administrativos/paramconsecutivos"
+                    },
+                    {
+                        "id": 229,
+                        "title": "Parámetros Compras",
+                        "url": "maestros/administrativos/paramcompras"
+                    },
+                    {
+                        "id": 206,
+                        "title": "Parámetros Facturación",
+                        "url": "maestros/administrativos/paramfacturacion"
+                    },
+                    {
+                        "id": 23,
+                        "title": "Parámetros Generales",
+                        "url": "maestros/administrativos/paramgrales"
+                    },
+                    {
+                        "id": 22,
+                        "title": "Parámetros Impuestos",
+                        "url": "maestros/administrativos/paramimpuestos"
+                    },
+                    {
+                        "id": 25,
+                        "title": "Periodos",
+                        "url": "maestros/administrativos/periodos"
+                    }
+                ]
+            },
+            {
+                "title": "Produccion",
+                "submenu": [
+                    {
+                        "id": 231,
+                        "title": "Auditores Procesos",
+                        "url": "maestros/produccion/auditoresprocesos"
+                    },
+                    {
+                        "id": 414,
+                        "title": "Capacidad Terceros",
+                        "url": "maestros/produccion/capacidadterceros"
+                    },
+                    {
+                        "id": 153,
+                        "title": "Crear Referencia Diseño",
+                        "url": "maestros/produccion/crearrefdiseno"
+                    },
+                    {
+                        "id": 114,
+                        "title": "Crear Referencia",
+                        "url": "maestros/produccion/crearref"
+                    },
+                    {
+                        "id": 39,
+                        "title": "Colores",
+                        "url": "maestros/produccion/colores"
+                    },
+                    {
+                        "id": 43,
+                        "title": "Coleccion",
+                        "url": "maestros/produccion/coleccion"
+                    },
+                    {
+                        "id": 412,
+                        "title": "Composición",
+                        "url": "maestros/produccion/composicion"
+                    },
+                    {
+                        "id": 400,
+                        "title": "Festivos",
+                        "url": "maestros/produccion/festivos"
+                    },
+                    {
+                        "id": 208,
+                        "title": "Lineas",
+                        "url": "maestros/produccion/lineas"
+                    },
+                    {
+                        "id": 41,
+                        "title": "Moldes",
+                        "url": "maestros/produccion/moldes"
+                    },
+                    {
+                        "id": 228,
+                        "title": "Marcas",
+                        "url": "maestros/produccion/marcas"
+                    },
+                    {
+                        "id": 52,
+                        "title": "Maquinas Confeccion",
+                        "url": "maestros/produccion/maquinasconfeccion"
+                    },
+                    {
+                        "id": 53,
+                        "title": "Operacion Confeccion",
+                        "url": "maestros/produccion/operacionconfeccion"
+                    },
+                    {
+                        "id": 115,
+                        "title": "Prendas",
+                        "url": "maestros/produccion/prendas"
+                    },
+                    {
+                        "id": 40,
+                        "title": "Piezas",
+                        "url": "maestros/produccion/piezas"
+                    },
+                    {
+                        "title": "Partes Prenda",
+                        "url": "maestros/produccion/partesprendas"
+                    },
+                    {
+                        "id": 182,
+                        "title": "Pintas Produccion",
+                        "url": "maestros/produccion/pintasproduccion"
+                    },
+                    {
+                        "id": 117,
+                        "title": "Procesos",
+                        "url": "maestros/produccion/procesos"
+                    },
+                    {
+                        "id": 38,
+                        "title": "Tallas",
+                        "url": "maestros/produccion/tallas"
+                    },
+                    {
+                        "id": 251,
+                        "title": "Imprimir Codigo Barras",
+                        "url": "maestros/produccion/imprimircodbarras"
+                    },
+                    {
+                        "id": 175,
+                        "title": "Insumos Por Linea",
+                        "url": "maestros/produccion/insumoslinea"
+                    },
+                    {
+                        "id": 174,
+                        "title": "Punto Reorden Referencias",
+                        "url": "maestros/produccion/puntoreordenreferencias"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Insumos",
+        "submenu": [
+            {
+                "id": 112,
+                "title": "Orden de Compra",
+                "url": "/insumos/ordencompra"
+            },
+            {
+                "id": 119,
+                "title": "Ordenes de Compra Producción Insumos",
+                "url": "/insumos/ordencompraprodinsumos"
+            },
+            {
+                "id": 119.1,
+                "title": "Orden de Compra Pedidos",
+                "url": "/insumos/ordencomprapedidos"
+            },
+            {
+                "id": 167,
+                "title": "Orden Compra Producción Telas",
+                "url": "/insumos/ordencompraprodtelas"
+            },
+            {
+                "id": 113,
+                "title": "Entrada de Compra Con O. de C.",
+                "url": "/insumos/entradacompraOC"
+            },
+            {
+                "id": 26,
+                "title": "Entrada de Compra Sin O. de C.",
+                "url": "/insumos/entradacomprasinOC"
+            },
+            {
+                "id": 141,
+                "title": "Entrada de Compra Proveedor O. de C.",
+                "url": "/insumos/entradacompraprovOC"
+            },
+            {
+                "id": 27,
+                "title": "Devolucion por Compras",
+                "url": "/insumos/devolcompras"
+            },
+            {
+                "id": 28,
+                "title": "Otros Movimientos",
+                "url": "/insumos/otrosmov"
+            },
+            {
+                "id": 381,
+                "title": "Planear Compras MP",
+                "url": "/insumos/plancomprasMP"
+            },
+            {
+                "id": 50,
+                "title": "Traslado Entre Bodegas",
+                "url": "/insumos/trasladoentrebodegas"
+            },
+            {
+                "id": 339,
+                "title": "Salidas Insumos Reproceso",
+                "url": "/insumos/salidainsumosrepro"
+            },
+            {
+                "id": 340,
+                "title": "Entradas Insumos Reproceso",
+                "url": "/insumos/entradasinsumosrepro"
+            },
+            {
+                "id": 371,
+                "title": "Programar abastecimiento MP",
+                "url": "/insumos/programar-abastecimiento-mp"
+            }
+        ]
+    },
+    {
+        "title": "Produccion",        
+        "submenu": [
+            {
+                "id": 44,
+                "title": "Pedidos",
+                "url": "/produccion/pedidos"
+            },
+            {
+                "id": 44.1,
+                "title": "Pedidos Excel Talla",
+                "url": "/produccion/pedidosExcelTalla"
+            },
+            {
+                "title": "Registrar Trazo",
+                "url": "/produccion/registrarTrazo"
+            },
+            {
+                "id": 121,
+                "title": "Orden de Produccion",
+                "url": "/produccion/ordenProduccion"
+            },
+            {
+                "id": 45,
+                "title": "Movimientos",
+                "url": "/produccion/movimientos"
+            },
+            {
+                "id": 122,
+                "title": "Despacho de Insumos O.P",
+                "url": "/produccion/despachoInsumos"
+            },
+            {
+                "id": 139,
+                "title": "Despacho de Telas O.P.",
+                "url": "/produccion/despachoTelas"
+            },
+            {
+                "id": 189,
+                "title": "Devolucion de Insumos O.P.",
+                "url": "/produccion/devolucionInsumos"
+            },
+            {
+                "id": 190,
+                "title": "Devolucion de Telas O.P.",
+                "url": "/produccion/devolucionTelas"
+            },
+            {
+                "id": 191,
+                "title": "Recalcular Orden de Producción",
+                "url": "/produccion/recalcularOP"
+            },
+            {
+                "id": 160,
+                "title": "Modificar Orden de Producción",
+                "url": "/produccion/modificarOP"
+            },
+            {
+                "id": 177,
+                "title": "Anular Movimiento",
+                "url": "/produccion/anularMovimiento"
+            },
+            {
+                "id": 204,
+                "title": "Inactivar Referencias Pedido",
+                "url": "/produccion/inactivarRefPed"
+            },
+            {
+                "id": 237,
+                "title": "Copiar Pedido",
+                "url": "/produccion/copiarPedido"
+            },
+            {
+                "id": 268,
+                "title": "Entrada Proceso Cod Barras",
+                "url": "/produccion/entradaProcCodBar"
+            },
+            {
+                "id": 272,
+                "title": "Remisionar Otros Conceptos",
+                "url": "/produccion/remisionOtrosConcepto"
+            }
+        ]
+    },
+    {
+        "title": "Proveedores",        
+        "submenu": [
+            {
+                "id": 54,
+                "title": "Registrar Gastos",
+                "url": "/proveedores/registrarGastos"
+            },
+            {
+                "id": 55,
+                "title": "Notas Credito",
+                "url": "/proveedores/notasCredito"
+            },
+            {
+                "id": 56,
+                "title": "Egresos Proveedores",
+                "url": "/proveedores/egresosProveedores"
+            },
+            {
+                "id": 56.1,
+                "title": "Egresos Libres",
+                "url": "/proveedores/egresosLibres"
+            },
+            {
+                "id": 56.2,
+                "title": "Egresos Caja Menor",
+                "url": "/proveedores/egresosCajaMenor"
+            },
+            {
+                "id": 241,
+                "title": "Egresos Nómina",
+                "url": "/proveedores/egresoNomina"
+            },
+            {
+                "id": 51,
+                "title": "Modificar Egresos",
+                "url": "/proveedores/modificarEgresos"
+            },
+            {
+                "id": 61,
+                "title": "Aplicar Nota Crédito",
+                "url": "/proveedores/aplicarNotaCredito"
+            },
+            {
+                "id": 62,
+                "title": "Aplicar Egreso",
+                "url": "/proveedores/aplicarEgreso"
+            },
+            {
+                "title": "Anular",
+                "submenu": [
+                    {
+                        "id": 60,
+                        "title": "Anular Factura Compras",
+                        "url": "/proveedores/anular/facturaCompras"
+                    },
+                    {
+                        "id": 59,
+                        "title": "Anular Egreso",
+                        "url": "/proveedores/anular/egreso"
+                    },
+                    {
+                        "id": 58,
+                        "title": "Anular Nota Crédito",
+                        "url": "/proveedores/anular/notaCredito"
+                    }
+                ]
+            },
+            {
+                "id": 172,
+                "title": "Radicar Facturas Insumos",
+                "url": "/proveedores/radicarFacturaInsumos"
+            },
+            {
+                "id": 192,
+                "title": "Radicar Facturas Procesos",
+                "url": "/proveedores/radicarFacturasProcesos"
+            },
+            {
+                "id": 402,
+                "title": "Aprobar Pagos",
+                "url": "/proveedores/aprobarPagos"
+            }
+        ]
+    },
+    {
+        "title": "Clientes",
+        "submenu": [
+            {
+                "title": "Facturar",
+                "submenu": [
+                    {
+                        "id": 128,
+                        "title": "Facturar Inventarios",
+                        "url": "clientes/facturar/inventarios"
+                    },
+                    {
+                        "id": 195,
+                        "title": "Facturar Pedidos",
+                        "url": "clientes/facturar/pedidos"
+                    },
+                    {
+                        "id": 253,
+                        "title": "Facturar Remisiones",
+                        "url": "clientes/facturar/remisiones"
+                    },
+                    {
+                        "id": 91,
+                        "title": "Facturar Otros Conceptos",
+                        "url": "clientes/facturar/otros-conceptos"
+                    },
+                    {
+                        "id": 104,
+                        "title": "Facturar con Código de Barras",
+                        "url": "clientes/facturar/con-codbarras"
+                    },
+                    {
+                        "id": 47,
+                        "title": "Facturar VMI",
+                        "url": "clientes/facturar/vmi"
+                    },
+                    {
+                        "id": 330,
+                        "title": "Facturar Punto de Venta",
+                        "url": "clientes/facturar/pdv"
+                    }
+                ]
+            },
+            {
+                "title": "Devoluciones",
+                
+                "submenu": [
+                    {
+                        "id": 74,
+                        "title": "Por Factura",
+                        "url": "clientes/devoluciones/factura"
+                    },
+                    {
+                        "id": 215,
+                        "title": "Por Referencia",
+                        "url": "clientes/devoluciones/referencia"
+                    },
+                    {
+                        "id": 215.1,
+                        "title": "Por Codigo de Barras",
+                        "url": "clientes/devoluciones/cod-barras"
+                    }
+                ]
+            },
+            {
+                "id": 75.1,
+                "title": "Nota Crédito",
+                "url": "clientes/nota-credito"
+            },
+            {
+                "id": 76,
+                "title": "Recibo de Caja",
+                "url": "clientes/recibo-caja"
+            },
+            {
+                "id": 49,
+                "title": "Recibo de Caja Pto Vta",
+                "url": "clientes/recibo-caja"
+            },
+            {
+                "id": 48,
+                "title": "Modificar Recibo caja",
+                "url": "clientes/modificar-recibo-caja"
+            },
+            {
+                "id": 79,
+                "title": "Aplicar Nota Crédito",
+                "url": "clientes/aplicar-nota-credito"
+            },
+            {
+                "id": 80,
+                "title": "Aplicar Recibo de Caja",
+                "url": "clientes/aplicar-recibo-caja"
+            },
+            {
+                "title": "Anular",                
+                "submenu": [
+                    {
+                        "id": 77,
+                        "title": "Anular Nota Crédito",
+                        "url": "clientes/anular/nota-credito"
+                    },
+                    {
+                        "id": 78,
+                        "title": "Anular Recibo de Caja",
+                        "url": "clientes/anular/reciboCaja"
+                    }
+                ]
+            },
+            {
+                "title": "Despacho Lista de Empaque",                
+                "submenu": [
+                    {
+                        "id": 252,
+                        "title": "Crear Lista de Empaque Pedidos",
+                        "url": "clientes/despacho/crear-lista-empaque"
+                    },
+                    {
+                        "id": 362,
+                        "title": "Cerrar Lista de Empaque",
+                        "url": "clientes/despacho/cerrar-lista-empaque"
+                    },
+                    {
+                        "id": 363,
+                        "title": "Reporte Lista de Empaque",
+                        "url": "clientes/despacho/reporte-lista-empaque"
+                    },
+                    {
+                        "id": 361,
+                        "title": "Anular Remision Cajas",
+                        "url": "clientes/despacho/anular-remision-cajas"
+                    }
+                ]
+            },
+            {
+                "id": 252,
+                "title": "Remisionar Pedidos (VMI/En Firme)",
+                "url": "clientes/remisionar-pedidos"
+            },
+            {
+                "id": 266,
+                "title": "Modificar Remision Pedido",
+                "url": "clientes/modificar-remision-pedido"
+            },
+            {
+                "id": 404,
+                "title": "Separar Pedidos",
+                "url": "clientes/separar-pedidos"
+            },
+            {
+                "id": 110,
+                "title": "Modificar Factura",
+                "url": "clientes/modificar-factura"
+            }
+        ]
+    },
+    {
+        "title": "Producto Terminado",        
+        "submenu": [
+            {
+                "id": 150,
+                "title": "Lista de Precios",
+                "url": "/productoTerminado/listaPrecios"
+            },
+            {
+                "id": 120,
+                "title": "Otros Movimientos",
+                "url": "/productoTerminado/otrosMovimientos"
+            },
+            {
+                "id": 145,
+                "title": "Traslado Entre Bodegas",
+                "url": "/productoTerminado/trasladoEntreBodegas"
+            },
+            {
+                "title": "Actualizar Costos Referencia",
+                "url": "/productoTerminado/actualizarCReferencia"
+            },
+            {
+                "title": "Actualizar Costos Inventario",
+                "url": "/productoTerminado/actualizarCInventario"
+            },
+            {
+                "id": 209,
+                "title": "Actualizar Costos Ordenes Prod",
+                "url": "/productoTerminado/actualizarCOrdenes"
+            },
+            {
+                "id": 151,
+                "title": "Entrada por Compras",
+                "url": "/productoTerminado/entradaXCompras"
+            },
+            {
+                "id": 333,
+                "title": "Entrada Compras Orden de Compra",
+                "url": "/productoTerminado/entradaOrdenCompra"
+            },
+            {
+                "id": 46,
+                "title": "Traslado en Consignación",
+                "url": "/productoTerminado/trasladoConsignacion"
+            },
+            {
+                "id": 331,
+                "title": "Devolucion Factura Producto Terminado",
+                "url": "/productoTerminado/devFacProdTer"
+            },
+            {
+                "id": 399,
+                "title": "Traslado Entre Referencias",
+                "url": "/productoTerminado/trasladoEntreReferencias"
+            },
+            {
+                "id": 406,
+                "title": "Salida Muestra Producción",
+                "url": "/productoTerminado/salidaMuestraProd"
+            },
+            {
+                "id": 408,
+                "title": "Salida Desde Pedidos Produccion",
+                "url": "/productoTerminado/salidas-pedidos-produccion"
+            }
+        ]
+    },
+    {
+        "title": "Consultas",        
+        "submenu": [
+            {
+                "title": "Insumos",                
+                "submenu": [
+                    {
+                        "id": 304,
+                        "title": "Antiguedad Inventarios",
+                        "url": "/consultas/insumos/antiguedad"
+                    },
+                    {
+                        "id": 311,
+                        "title": "Auditoria en Compras",
+                        "url": "/consultas/insumos/auditoria"
+                    },
+                    {
+                        "id": 29,
+                        "title": "Saldo Inventario Insumos",
+                        "url": "/consultas/insumos/saldosInsumos"
+                    },
+                    {
+                        "id": 29.1,
+                        "title": "Saldo Inventario Insumos Fecha",
+                        "url": "/consultas/insumos/SaldosInsumosFecha"
+                    },
+                    {
+                        "id": 32,
+                        "title": "Transacciones por Mes",
+                        "url": "/consultas/insumos/Transacciones"
+                    },
+                    {
+                        "id": 30,
+                        "title": "Compras por Proveedor",
+                        "url": "/consultas/insumos/comprasProveedor"
+                    },
+                    {
+                        "id": 31,
+                        "title": "Compras por Articulo",
+                        "url": "/consultas/insumos/comprasArticulo"
+                    },
+                    {
+                        "id": 33,
+                        "title": "Kardex",
+                        "url": "/consultas/insumos/kardex"
+                    },
+                    {
+                        "id": 118,
+                        "title": "Ordenes de Compra",
+                        "url": "/consultas/insumos/ordenesCompra"
+                    },
+                    {
+                        "id": 136,
+                        "title": "Reporte Orden de Compra",
+                        "url": "/consultas/insumos/reporteOrdenesCompra"
+                    },
+                    {
+                        "id": 222,
+                        "title": "Movimiento por Concepto",
+                        "url": "/consultas/insumos/movimientoConcepto"
+                    },
+                    {
+                        "id": 256,
+                        "title": "Consulta Minimos Inventario",
+                        "url": "/consultas/insumos/minimosInventario"
+                    }
+                ]
+            },
+            {
+                "title": "Clientes",                
+                "submenu": [
+                    {
+                        "id": 81,
+                        "title": "Cartera General",
+                        "url": ""
+                    },
+                    {
+                        "id": 383,
+                        "title": "Cartera Clientes",
+                        "url": ""
+                    },
+                    {
+                        "id": 207,
+                        "title": "Cartera por Vendedor",
+                        "url": ""
+                    },
+                    {
+                        "id": 249,
+                        "title": "Cartera por Parámetros",
+                        "url": ""
+                    },
+                    {
+                        "title": "Comisión por Vendedor",
+                        "url": ""
+                    },
+                    {
+                        "id": 88,
+                        "title": "Movimiento Histórico",
+                        "url": ""
+                    },
+                    {
+                        "title": "Reporte Despacho",                        
+                        "submenu": [
+                            {
+                                "id": 267,
+                                "title": "Reportes Remisión Despacho",
+                                "url": "/clientes/despacho/crearLista"
+                            },
+                            {
+                                "id": 269,
+                                "title": "Remisiones Pendientes",
+                                "url": "/clientes/despacho/remisionar"
+                            },
+                            {
+                                "id": 181,
+                                "title": "Reporte Remisión VMI/En Firme",
+                                "url": "/clientes/despacho/crearLista"
+                            },
+                            {
+                                "title": "Lista de Empaque",
+                                "url": "/clientes/despacho/remisionar"
+                            },
+                            {
+                                "id": 144,
+                                "title": "Consulta Remisión Kardex",
+                                "url": "/clientes/despacho/remisionar"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Reportes Individuales",                        
+                        "submenu": [
+                            {
+                                "id": 82,
+                                "title": "Reporte Factura",
+                                "url": "/clientes/despacho/crearLista"
+                            },
+                            {
+                                "id": 86,
+                                "title": "Reporte Nota Crédito",
+                                "url": "/clientes/despacho/remisionar"
+                            },
+                            {
+                                "id": 84,
+                                "title": "Reporte Recibo de Caja",
+                                "url": "/clientes/despacho/crearLista"
+                            },
+                            {
+                                "id": 337,
+                                "title": "Reporte de Factura de Ventas",
+                                "url": "/clientes/despacho/remisionar"
+                            },
+                            {
+                                "id": 187,
+                                "title": "Reporte Cruce CXC y CXP",
+                                "url": "/clientes/despacho/remisionar"
+                            },
+                            {
+                                "title": "Reporte Ajustes",
+                                "url": "/clientes/despacho/remisionar"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Reportes Mes",                        
+                        "submenu": [
+                            {
+                                "title": "Facturas por Mes",
+                                "url": "/clientes/despacho/crearLista"
+                            },
+                            {
+                                "title": "Notas Crédito por Mes",
+                                "url": "/clientes/despacho/remisionar"
+                            },
+                            {
+                                "title": "Recibos de Caja por Mes",
+                                "url": "/clientes/despacho/crearLista"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Ventas Consolidadas por Bodega/Marca",
+                        "url": ""
+                    },
+                    {
+                        "title": "Rentabilidad en Ventas",
+                        "url": ""
+                    },
+                    {
+                        "title": "Ventas por Cliente",
+                        "url": ""
+                    },
+                    {
+                        "title": "Ventas por Bodega",
+                        "url": ""
+                    },
+                    {
+                        "title": "Clientes por Zona",
+                        "url": ""
+                    },
+                    {
+                        "title": "Unidades Referencias Vendidas",
+                        "url": ""
+                    }
+                ]
+            },
+            {
+                "title": "Proveedores",
+                "submenu": [
+                    {
+                        "id": 63,
+                        "title": "Cartera General",
+                        "url": ""
+                    },
+                    {
+                        "id": 64,
+                        "title": "Cartera Caja Menor",
+                        "url": ""
+                    },
+                    {
+                        "id": 173,
+                        "title": "Compra sin Radicar",
+                        "url": ""
+                    },
+                    {
+                        "id": 65,
+                        "title": "Reporte Egreso",
+                        "url": ""
+                    },
+                    {
+                        "id": 66,
+                        "title": "Reporte Doc Equivalente",
+                        "url": ""
+                    },
+                    {
+                        "id": 67,
+                        "title": "Reporte Nota Crédito",
+                        "url": ""
+                    },
+                    {
+                        "id": 72,
+                        "title": "Reporte Radicado Caja Menor",
+                        "url": ""
+                    },
+                    {
+                        "id": 70,
+                        "title": "Compras por Mes",
+                        "url": ""
+                    },
+                    {
+                        "id": 68,
+                        "title": "Egresos por Mes",
+                        "url": ""
+                    },
+                    {
+                        "id": 69,
+                        "title": "Notas Créditos por Mes",
+                        "url": ""
+                    },
+                    {
+                        "id": 71,
+                        "title": "Movimiento Histórico",
+                        "url": ""
+                    },
+                    {
+                        "id": 334,
+                        "title": "Movimiento Histórico Prestamos",
+                        "url": ""
+                    },
+                    {
+                        "id": 184,
+                        "title": "Gastos",
+                        "url": ""
+                    },
+                    {
+                        "id": 260,
+                        "title": "Factura Compras",
+                        "url": ""
+                    },
+                    {
+                        "id": 42,
+                        "title": "Ordenes Prov VS Egresos",
+                        "url": ""
+                    }
+                ]
+            },
+            {
+                "title": "Producto Terminado",
+                "submenu": [
+                    {
+                        "id": 129,
+                        "title": "Saldo Inventario Actual",
+                        "url": ""
+                    },
+                    {
+                        "id": 403,
+                        "title": "Saldo Inventario Fecha",
+                        "url": ""
+                    },
+                    {
+                        "id": 401,
+                        "title": "Inventario Bodegas",
+                        "url": ""
+                    },
+                    {
+                        "id": 143,
+                        "title": "Kardex",
+                        "url": ""
+                    },
+                    {
+                        "id": 152,
+                        "title": "Transacciones por Mes",
+                        "url": ""
+                    },
+                    {
+                        "id": 168,
+                        "title": "Costos por Referencia",
+                        "url": ""
+                    },
+                    {
+                        "id": 220,
+                        "title": "Movimiento por Concepto",
+                        "url": ""
+                    },
+                    {
+                        "id": 147,
+                        "title": "Reporte Despacho en Consignación",
+                        "url": ""
+                    },
+                    {
+                        "id": 165,
+                        "title": "Despachos en Consignacion",
+                        "url": ""
+                    },
+                    {
+                        "id": 405,
+                        "title": "Entrada Prod VS Kardex",
+                        "url": ""
+                    }
+                ]
+            },
+            {
+                "title": "Producción",
+                "submenu": [
+                    {
+                        "title": "Pedidos",
+                        "submenu": [
+                            {
+                                "title": "Detalle del Pedido",
+                                "url": ""
+                            },
+                            {
+                                "title": "Consultas Pedidos",
+                                "url": ""
+                            },
+                            {
+                                "title": "Pedidos sin Facturar",
+                                "url": ""
+                            },
+                            {
+                                "title": "Pedidos Ordenes Inventario",
+                                "url": ""
+                            },
+                            {
+                                "title": "Correrias",
+                                "url": ""
+                            },
+                            {
+                                "title": "Pedidos Despachados",
+                                "url": ""
+                            },
+                            {
+                                "title": "Gestión Tiempos de Ciclo",
+                                "url": ""
+                            },
+                            {
+                                "title": "Reporte Separar Bodega",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Ordenes Producción",
+                        "submenu": [
+                            {
+                                "title": "Consultar Costos Ordenes Producidas",
+                                "url": ""
+                            },
+                            {
+                                "title": "Consultar Auditorias Procesos",
+                                "url": ""
+                            },
+                            {
+                                "title": "Detalle Orden Producción",
+                                "url": ""
+                            },
+                            {
+                                "title": "Estado de Programacion",
+                                "url": ""
+                            },
+                            {
+                                "title": "Estado de Produccion",
+                                "url": ""
+                            },
+                            {
+                                "title": "Entradas Producción a Bodega",
+                                "url": ""
+                            },
+                            {
+                                "title": "Estado Ultimo Proceso",
+                                "url": ""
+                            },
+                            {
+                                "title": "Gestion Tiempos de Ciclo",
+                                "url": ""
+                            },
+                            {
+                                "title": "Inventario en Proceso",
+                                "url": ""
+                            },
+                            {
+                                "title": "Insumos por Orden de Produccion",
+                                "url": ""
+                            },
+                            {
+                                "title": "Imprimir Código Barras Orden",
+                                "url": ""
+                            },
+                            {
+                                "title": "Necesidades Compras Telas O.P.",
+                                "url": ""
+                            },
+                            {
+                                "title": "Reporte Orden Producción",
+                                "url": ""
+                            },
+                            {
+                                "title": "Tiempos de Ciclo",
+                                "url": ""
+                            },
+                            {
+                                "title": "Unidades Producidas",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Terceros",
+                        "submenu": [
+                            {
+                                "title": "Remisión Despacho Insumos",
+                                "url": ""
+                            },
+                            {
+                                "title": "Remisión Despacho Producción",
+                                "url": ""
+                            },
+                            {
+                                "title": "Remisión Otros",
+                                "url": ""
+                            },
+                            {
+                                "title": "Gestión Tiempos de Ciclo en Proceso",
+                                "url": ""
+                            },
+                            {
+                                "title": "Gestión Proceso Terceros",
+                                "url": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Referencias",
+                        "submenu": [
+                            {
+                                "title": "Referencias Reservadas",
+                                "url": ""
+                            },
+                            {
+                                "title": "Reporte Referencia",
+                                "url": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Inventario Fisico",
+        "submenu": [
+            {
+                "title": "Insumos",
+                "submenu": [
+                    {
+                        "title": "Planilla Insumos",
+                        "url": ""
+                    },
+                    {
+                        "title": "Registrar Inventario Insumos",
+                        "url": ""
+                    },
+                    {
+                        "title": "Reportes Diferencia Insumos",
+                        "url": "/indicadores-gestion"
+                    },
+                    {
+                        "title": "Actualizar Insumos",
+                        "url": "/consulta-presupuesto-ventas"
+                    },
+                    {
+                        "title": "Reporte Inventario Fisico Insumos",
+                        "url": "archivo-plano-contable"
+                    },
+                    {
+                        "title": "Validar Inventario",
+                        "url": "/mod-mov-cont"
+                    }
+                ]
+            },
+            {
+                "title": "Producto Terminado",
+                "submenu": [
+                    {
+                        "title": "Seguridad",
+                        "url": ""
+                    },
+                    {
+                        "title": "Cerrar Mes",
+                        "url": ""
+                    },
+                    {
+                        "title": "Indicadores de Gestion",
+                        "url": "/indicadores-gestion"
+                    },
+                    {
+                        "title": "Consulta Presupuesto Ventas",
+                        "url": "/consulta-presupuesto-ventas"
+                    },
+                    {
+                        "title": "Archivo Plano Mov Contable",
+                        "url": "archivo-plano-contable"
+                    },
+                    {
+                        "title": "Modificar Mov Contable",
+                        "url": "/mod-mov-cont"
+                    },
+                    {
+                        "title": "Reportes Contables",
+                        "url": ""
+                    },
+                    {
+                        "title": "Reportes Iva",
+                        "url": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Gestion Administrativa",        
+        "submenu": [
+            {
+                "title": "Seguridad",
+                "url": "",
+                "submenu": [
+                    {
+                        "title": "Usuarios",
+                        "url": "gestion-administrativa/seguridad/usuarios"
+                    },
+                    {
+                        "title": "Permisos",
+                        "url": ""
+                    }
+                ]
+            },
+            {
+                "title": "Cerrar Mes",
+                "url": "",
+                "submenu": [
+                    {
+                        "title": "Cierre Normal",
+                        "url": ""
+                    },
+                    {
+                        "title": "Cierre con Movimiento",
+                        "url": ""
+                    },
+                    {
+                        "title": "Saldos Meses Anteriores",
+                        "url": "/indicadores-gestion"
+                    }
+                ]
+            },
+            {
+                "title": "Indicadores de Gestion",
+                "url": "/indicadores-gestion"
+            },
+            {
+                "title": "Consulta Presupuesto Ventas",
+                "url": "/consulta-presupuesto-ventas"
+            },
+            {
+                "title": "Archivo Plano Mov Contable",
+                "url": "archivo-plano-contable"
+            },
+            {
+                "title": "Modificar Mov Contable",
+                "url": "/mod-mov-cont"
+            },
+            {
+                "title": "Reportes Contables",
+                "url": ""
+            },
+            {
+                "title": "Reportes Iva",
+                "url": ""
+            },
+            {
+                "title": "Reportes Retefuente",
+                "url": ""
+            },
+            {
+                "title": "Saldos Iniciales Cartera",
+                "url": ""
+            },
+            {
+                "title": "Consulta Ventas Caja General",
+                "url": ""
+            },
+            {
+                "title": "Rotacion Cartera",
+                "url": ""
+            },
+            {
+                "title": "Recordatorios Cartera",
+                "url": ""
+            },
+            {
+                "title": "Consulta Recordatorios Cartera",
+                "url": ""
+            },
+            {
+                "title": "Recalcular Kardex Insumos",
+                "url": ""
+            },
+            {
+                "title": "Actualizar Cartera Perdida",
+                "url": ""
+            },
+            {
+                "title": "Documentos Electronicos HGI",
+                "url": ""
+            },
+            {
+                "title": "Modificar Factura CXP",
+                "url": ""
+            }
+        ]
+    }
+]

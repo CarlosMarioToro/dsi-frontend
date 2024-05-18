@@ -1,0 +1,99 @@
+:root {
+    --sidebarBackground: #F1EFEF;
+    --sidebarSubmenuBackground: #c2c2c2;
+    --sidebarHover: #c2c1c1;
+    --sidebarFontColor: #505050;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    flex-grow: 1;
+    max-width: 90%;
+    background-color: white;
+    background-image: url('./assets/images/Logo.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.sidebar {
+    width: 200px;
+    flex-shrink: 0;
+    font-size: .8em;
+    background-color: var(--sidebarBackground);
+    height: 100%;
+    scrollbar-width: none;
+    overflow-y: scroll;
+    /* overflow: auto; */
+}
+
+
+.sidebar-item {
+    padding: .35em .55em;
+    display: block;
+    /* border: 1px solid var(--sidebarBackground); */
+    transition: background-color .15s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sidebar-title:hover {
+    background-color: var(--sidebarHover);
+}
+
+.sidebar-title {
+    display: flex;
+    padding: .35em .55em;
+    justify-content: space-between;
+}
+
+.sidebar-title span i {
+    display: inline-block;
+    width: 1.5em;
+}
+
+.sidebar-title .toggle-btn {
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+.sidebar-item.open>.sidebar-title .toggle-btn {
+    transform: rotate(180deg);
+}
+
+.sidebar-content {
+    padding-top: .25em;
+    padding-left: .5em;
+    /* border: 1px solid var(--sidebarBackground); */
+    height: 0;
+    overflow: hidden;
+}
+
+.sidebar-item.open>.sidebar-content {
+    height: auto;
+    border: 1px solid var(--sidebarHover);
+    border-radius: 8px;
+    box-shadow: 10px 5px 5px var(--sidebarSubmenuBackground);
+}
+
+/* .sidebar-item.plain {
+    color: var(--sidebarFontColor);
+    text-decoration: none;
+} */
+
+.sidebar-item.plain:hover {
+    background-color: var(--sidebarSubmenuBackground);
+}
+
+.sidebar-item.plain i {
+    display: inline-block;
+    width: 1.7em;
+}
