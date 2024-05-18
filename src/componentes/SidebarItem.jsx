@@ -26,7 +26,7 @@ const SidebarItem = ({item}) => {
             <Link to={item.url || "#"} className="sidebar-item plain">
                 {" "}
                 {item.icon && <i className={item.icon}></i>}
-                {item.id}-{item.title}
+                {item.title}
             </Link>
             // <a href={item.url || "#"} className="sidebar-item plain">
             // { item.icon && <i className={item.icon}></i> }

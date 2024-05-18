@@ -1,22 +1,47 @@
 import { DataGrid } from '@mui/x-data-grid';
+import clienteAxios from '../../../config/axios';
+import Alerta from '../../../componentes/Alerta';
+import React, { useState } from 'react';
 
 const columns = [
-  { field: 'col1', headerName: 'Column 1', width: 150 },
-  { field: 'col2', headerName: 'Column 2', width: 150 },
+    { field: "id", headerName: "Código", width: 80,headerClassName: 'super-app-theme--header',
+    headerAlign: 'center' },
+    { field: "col1", headerName: "Nombre", width: 150,headerClassName: 'super-app-theme--header',
+    headerAlign: 'center' },
+    { field: "col2", headerName: "Cod Contable", width: 150,headerClassName: 'super-app-theme--header',
+    headerAlign: 'center' },
 ];
 
-const rows = [
-  { id: 1, col1: 'Hello', col2: 'World ' },
-  { id: 2, col1: 'DataGridPro', col2: 'is Awesome' },
-  { id: 3, col1: 'MUI', col2: 'is Amazing' },
-];
+let rows = [];
 
 const CentroCostos = () => {
+    const [alerta, setAlerta] = useState({});
+
+    React.useEffect(() => {
+        async function obtenerCentroCostos() {
+            const { data } = await clienteAxios.get("/centro-costos");
+            rows = [];
+            for(var i in data) {
+                let centroCostos = {
+                    id: data[i].ccc_codigo,
+                    col1: data[i].ccc_nombre,
+                    col2: data[i].ccc_cod_contable
+                }
+                rows = [...rows, centroCostos];
+            }
+            setAlerta({ msg: data.msg });
+        }
+        obtenerCentroCostos();
+    }, []);
+
+    const { msg } = alerta;
+
     return (
         <>
             <section className="container w-full h-full items-center">
                 <div className="flex flex-col items-center h-full w-auto bg-gray-300 rounded-lg p-4 bg-opacity-75">
                     <h1 className="w-full p-3 bg-gray-500 rounded-t-lg">Maestro de Centro de Costos</h1>
+                    {msg && <Alerta alerta={alerta} />}
                     <div className="w-auto h-full bg-white bg-opacity-75">
                         <DataGrid columns={columns} rows={rows} />
                     </div>                    
