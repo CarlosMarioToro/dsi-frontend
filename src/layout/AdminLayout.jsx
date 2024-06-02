@@ -12,7 +12,7 @@ const AdminLayout = () => {
         const sideMenu = document.querySelectorAll('.sidebar');
         console.log(sideMenu);
         console.log('Mostrar Menu');
-        sideMenu[0].toggleAttribute('hidden');
+        sideMenu[0].classList.toggle('hidden');
         // setIsSideOpen(!isSideOpen);
     };
 
