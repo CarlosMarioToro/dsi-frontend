@@ -65,13 +65,13 @@ const Ciudades = () => {
 
   return (
     <>
-      <section className="container w-full h-4/5 items-center">
+      <section className="container w-full h-full items-center">
         <div className="flex flex-col items-center h-full w-auto bg-gray-300 rounded-lg p-4 bg-opacity-75">
           <h1 className="w-full p-3 bg-gray-500 rounded-t-lg">
             Maestro de Ciudades
           </h1>
           {msg && <Alerta alerta={alerta} />}
-          <div className="w-auto h-full bg-white bg-opacity-75">
+          <div className="w-auto h-[calc(85vh-48px)] bg-white bg-opacity-75">
             <DataGrid
               columns={columns}
               rows={rows}

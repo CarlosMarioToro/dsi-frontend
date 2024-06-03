@@ -5,7 +5,7 @@ import items from "../data/sidebar.json";
 const Sidebar = () => {
     return (
         <>
-            <div className="sidebar hidden">
+            <div className="sidebar bg-gray-600 rounded-lg hidden">
                 {/* <img src={iconDSI} alt="logoDSI" className="m-4 h-8 w-8" id="toggle" /> */}
                 {items.map((item, index) => (
                     <SidebarItem key={index} item={item}/>

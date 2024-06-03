@@ -10,9 +10,11 @@ const AdminLayout = () => {
     // const [isSideOpen, setIsSideOpen] = useState(false);
     const mostrarMenu = () => {
         const sideMenu = document.querySelectorAll('.sidebar');
-        console.log(sideMenu);
-        console.log('Mostrar Menu');
+        const menuOpen = document.querySelectorAll('.open')
         sideMenu[0].classList.toggle('hidden');
+        for (let i = 0; i < menuOpen.length; i++) {
+          menuOpen[i].classList.remove('open');          
+        }
         // setIsSideOpen(!isSideOpen);
     };
 
@@ -20,7 +22,7 @@ const AdminLayout = () => {
       <>
         <div className="main">
           <Sidebar options={items} />
-          <div className="w-full sm:max-w-screen-xl">
+          <div className="w-full sm:max-w-screen-2xl">
             <div className="cursor-pointer" onClick={mostrarMenu}>
               <img
                 src={iconDSI}

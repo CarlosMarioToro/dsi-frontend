@@ -25,8 +25,6 @@ const SidebarItem = ({ item }) => {
         className="sidebar-item"
         onClick={() => {
           const sideMenu = document.querySelectorAll(".sidebar");
-          console.log(sideMenu);
-
           sideMenu[0].classList.add("hidden");
         }}
       >

@@ -2,13 +2,16 @@
     --sidebarBackground: #F1EFEF;
     --sidebarSubmenuBackground: #c2c2c2;
     --sidebarHover: #c2c1c1;
-    --sidebarFontColor: #505050;
+    --sidebarFontColor: #2e2e2e;
 }
 
 .main {
-    display: flex;
     height: 100vh;
     background-color: white;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .container {
@@ -30,19 +33,18 @@
     width: 200px;
     flex-shrink: 0;
     font-size: .8em;
-    background-color: var(--sidebarBackground);
-    height: 91%;
+    color: aliceblue;
     scrollbar-width: none;
-    overflow-y: scroll;
+    overflow-y: scroll; /* scroll thumb and track */
     top: 5em;
-    /* overflow: auto; */
+    overflow: auto;
+    z-index: 1;
 }
 
 
 .sidebar-item {
     padding: .35em .55em;
     display: block;
-    /* border: 1px solid var(--sidebarBackground); */
     transition: background-color .15s;
     border-radius: 5px;
     cursor: pointer;
@@ -50,6 +52,7 @@
 
 .sidebar-title:hover {
     background-color: var(--sidebarHover);
+    color: var(--sidebarFontColor);
 }
 
 .sidebar-title {
@@ -74,7 +77,7 @@
 
 .sidebar-content {
     padding-top: .25em;
-    padding-left: .5em;
+    padding-left: .7em;
     /* border: 1px solid var(--sidebarBackground); */
     height: 0;
     overflow: hidden;

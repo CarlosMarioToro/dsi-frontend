@@ -44,9 +44,9 @@ const Cabecera = () => {
     
     return (
         <>
-            <header className="flex h-16 bg-gray-400 mb-3 items-center justify-end">
-                <div className=" flex p-2 h-11 border border-gray-800 bg-gray-100 justify-center">{dataTime.nombreDia}, {dataTime.day} de {dataTime.month} de {dataTime.year} {dataTime.hora < 10 ? ` 0${dataTime.hora}` : dataTime.hora}: {dataTime.minuto < 10 ? ` 0${dataTime.minuto}` : dataTime.minuto}: {dataTime.segundo < 10 ? ` 0${dataTime.segundo}` : dataTime.segundo}</div>
-                <img src={logoDSI} alt="logoDSI" className="w-24 h-10 m-32" />
+            <header className="flex p-2 h-16 bg-gray-600 items-center justify-end rounded-b-lg">
+                <div className="p-2 h-11 border border-gray-800 bg-gray-100 justify-center">{dataTime.nombreDia}, {dataTime.day} de {dataTime.month} de {dataTime.year} {dataTime.hora < 10 ? ` 0${dataTime.hora}` : dataTime.hora}: {dataTime.minuto < 10 ? ` 0${dataTime.minuto}` : dataTime.minuto}: {dataTime.segundo < 10 ? ` 0${dataTime.segundo}` : dataTime.segundo}</div>
+                <img src={logoDSI} alt="logoDSI" className="md:w-24 h-10 m-32 hidden md:flex" />
             </header>
         </>
     );
